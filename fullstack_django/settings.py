@@ -93,12 +93,9 @@ CORS_ALLOWED_ORIGINS = [
     "https://buildrabota.netlify.app",
     "http://localhost:3000",
     "http://repaircounting.ru",
-    "dpg-d0s7cq24d50c73bc5ki0-a",
     "https://back-buo4.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
-
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]  # Добавляем оба хоста
 
 ROOT_URLCONF = 'fullstack_django.urls'
 
