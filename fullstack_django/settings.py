@@ -96,6 +96,11 @@ CORS_ALLOWED_ORIGINS = [
     "https://back-buo4.onrender.com",
     "https://683a21195bf7e27523b326e1--buildrabota.netlify.app"
 ]
+
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r"^https://.*\.netlify\.app$",
+]
+
 CORS_ALLOW_CREDENTIALS = True
 CSRF_TRUSTED_ORIGINS = ["https://back-buo4.onrender.com"]
 
