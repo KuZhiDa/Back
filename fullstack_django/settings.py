@@ -96,6 +96,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://back-buo4.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
+CSRF_TRUSTED_ORIGINS = ["https://back-buo4.onrender.com"]
 
 ROOT_URLCONF = 'fullstack_django.urls'
 
