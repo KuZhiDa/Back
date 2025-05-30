@@ -92,7 +92,9 @@ REST_FRAMEWORK = {
 CORS_ALLOWED_ORIGINS = [
     "https://buildrabota.netlify.app",
     "http://localhost:3000",
-    "http://repaircounting.ru"
+    "http://repaircounting.ru",
+    "dpg-d0s7cq24d50c73bc5ki0-a",
+    "https://back-buo4.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
 
@@ -126,10 +128,10 @@ WSGI_APPLICATION = 'fullstack_django.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myprojectdb',
-        'USER': 'myprojectuser',
-        'PASSWORD': '12345',
-        'HOST': 'localhost',
+        'NAME': 'myprojectdb_rhyy',
+        'USER': 'myprojectdb_rhyy_user',
+        'PASSWORD': 'B6W7gZ2oyW2U5A2XWEeCY5mlMvSdOo8F',
+        'HOST': 'dpg-d0s7cq24d50c73bc5ki0-a',
         'PORT': '5432',
     }
 }
