@@ -93,7 +93,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://buildrabota.netlify.app",
     "http://localhost:3000",
     "http://repaircounting.ru",
-    "https://back-buo4.onrender.com"
+    "https://back-buo4.onrender.com",
     "https://683a21195bf7e27523b326e1--buildrabota.netlify.app"
 ]
 CORS_ALLOW_CREDENTIALS = True
